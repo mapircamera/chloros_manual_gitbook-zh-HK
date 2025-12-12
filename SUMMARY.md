@@ -16,7 +16,7 @@
 ## Processing Images (GUI)
 
 * [Adjusting Project Settings](processing-images-gui/adjusting-project-settings.md)
-* [Adding Files to a Project](processing-images-gui/page-1.md)
+* [Adding Files to a Project](processing-images-gui/adding-files-to-a-project.md)
 * [Choosing Target Images](processing-images-gui/choosing-target-images.md)
 * [Starting the Processing](processing-images-gui/starting-the-processing.md)
 * [Monitoring the Processing](processing-images-gui/monitoring-the-processing.md)
@@ -24,11 +24,11 @@
 
 ## PROJECT SETTINGS
 
-* [Project Settings](project-settings/page-2.md)
+* [Project Settings](project-settings/project-settings.md)
 * [Multispectral Index Formulas](project-settings/multispectral-index-formulas.md)
 
 ## IMAGE VIEWER (GUI)
 
-* [Opening an Image Full Screen](image-viewer-gui/page-3.md)
+* [Opening an Image Full Screen](image-viewer-gui/opening-an-image-full-screen.md)
 * [Image Layers](image-viewer-gui/image-layers.md)
 * [Index/LUT Sandbox](image-viewer-gui/index-lut-sandbox.md)
