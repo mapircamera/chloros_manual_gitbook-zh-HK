@@ -4,21 +4,21 @@ metaLinks:
     - https://app.gitbook.com/s/o044KN3Ws0uIDvOmSkcR/output-image-formats
 ---
 
-# Output Image Formats
+# 输出图像格式
 
-### TIFF (16-bit)
+### TIFF (16位)
 
-16-bit (pixel digital number 0 - 65535) TIFF (.tif) format output.
+16位（像素数字值 0 - 65535）TIFF (.tif) 格式输出。
 
-### TIFF (32-bit, Percent %)
+### TIFF（32位，百分比%）
 
-32-bit (pixel float 0.0 - 1.0) TIFF (.tif) format output. Pixel values represent reflectance percentages where 0.0 = 0% and 1.0 = 100%.
+32位（像素浮点数0.0-1.0）TIFF (.tif)格式输出。像素值代表反射率百分比，其中0.0=0%，1.0=100%。
 
-### **JPG (8-bit)**
+### **JPG（8位）**
 
-8-bit (pixel digital number 0 -255) JPG (.jpg) format output.
+8位（像素数字数0-255）JPG（.jpg）格式输出。
 
-### **PNG (8-bit)**
+### **PNG (8位)**
 
-8-bit (pixel digital number 0 - 255) PNG (.png) format output. Lossless compression suitable for web viewing and visualization.
+8位（像素数字值0-255）PNG (.png)格式输出。无损压缩，适用于网页浏览与可视化展示。
 
