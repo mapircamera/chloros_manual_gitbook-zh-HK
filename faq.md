@@ -1,31 +1,30 @@
 ---
-description: Frequently Asked Questions
+description: 常见问题解答
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/o044KN3Ws0uIDvOmSkcR/faq
 ---
-
 # 常见问题
 
 <details>
 
-<summary>能否使用Chloros处理非MAPIR品牌的相机图像？</summary>
+<summary>能否使用Chloros处理非MAPIR品牌的摄像机图像？</summary>
 
-不行，Chloros仅支持处理MAPIR相机图像。 更多信息请参阅[支持的相机型号列表](supported-cameras.md)。我们确实提供MAPIR云端对其他相机的处理服务，完整列表请见[此处](https://mapir.gitbook.io/mapir-cloud/supported-cameras)。
-
-</details>
-
-<details>
-
-<summary>能否在没有校准目标的情况下对图像进行反射率校准？</summary>
-
-不行。若未在拍摄非校准图像时同步采集校准靶标图像，则无法将图像像素值与已知反射率百分比建立关联。若同时未包含MAPIR光传感器日志，则环境光谱将无法测得，反射率结果亦不准确。
+不行，Chloros仅支持处理MAPIR相机的图像。 更多信息请参阅[支持的相机型号列表](supported-cameras.md)。我们确实提供MAPIR云端对其他相机的处理服务，完整列表请见[此处](https://mapir.gitbook.io/mapir-cloud/supported-cameras)。
 
 </details>
 
 <details>
 
-<summary>能否在Chloros处理前编辑图像？</summary>
+<summary>能否在没有校准目标的情况下校准图像反射率？</summary>
+
+不行。若未在拍摄非目标图像时同步采集校准目标图像，则无法将图像像素值与已知反射率百分比建立关联。若同时未包含MAPIR光传感器日志，则环境光谱将无法测量，反射率结果亦不准确。
+
+</details>
+
+<details>
+
+<summary>在Chloros处理前能否编辑图像？</summary>
 
 不可以。Chloros假定输入数据未经修改。请勿更改文件名。
 
@@ -51,7 +50,7 @@ metaLinks:
 
 <summary>如何加快Chloros的目标检测步骤？</summary>
 
-在文件浏览器表格中，预先在右侧列中选择目标图像，Chloros 就会只从这些图像中寻找校准目标，大大加快处理速度。
+在文件浏览器表格中，预先在右侧列中选择目标图像，Chloros 就会只从这些图像中寻找校准目标，大大加快了处理速度。
 
 </details>
 
@@ -59,7 +58,7 @@ metaLinks:
 
 <summary>若计划将图像上传至<a href="https://www.mapir.camera/collections/software/products/mapir-cloud-subscription">XPROTX云平台</a>，是否需要在XPROTX中预先处理？</summary>
 
-若计划上传至我们的在线处理平台[MAPIR云](https://www.mapir.camera/collections/software/products/mapir-cloud-subscription)，请勿在上传前编辑图像。云平台将执行全部相同处理流程并提供更多功能。
+若计划上传至我们的在线处理平台[MAPIR云](https://www.mapir.camera/collections/software/products/mapir-cloud-subscription)，请勿在上传前编辑图像。云端将执行全部相同处理流程并提供更多功能。
 
 </details>
 
