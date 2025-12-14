@@ -1,10 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/o044KN3Ws0uIDvOmSkcR/download
+---
 # 下载
 
-下载最新版本的Chloros，用于Windows，开始进行多光谱图像处理。
+下载最新版本的Chloros（适用于Windows），开始进行多光谱图像处理。
 
 ### 系统要求
 
-| 要求                         | 最低                           | 推荐                           |
+| 要求                         | 最低要求                         | 推荐要求                     |
 | -------------------- | ------------------------------- | ------------------------------- |
 | **操作系统** | Windows 10 (64位)             | Windows 11 (64位)             |
 | **处理器**        | 英特尔酷睿i5或同等性能     | 英特尔酷睿i7或更高性能         |
@@ -39,11 +44,11 @@
 2. 双击安装程序启动安装
 3. 跟随安装向导提示操作
 4. 选择安装目录（默认：`C:\Program Files\Chloros\`）
-5. 完成安装并启动 Chloros
-6. 使用您的MAPIR云端Chloros+账户登录（或继续使用免费版）
+5. 安装完成后启动 Chloros
+6. 使用您的 MAPIR 云端 Chloros+ 账户登录（或继续使用免费版）
 
-{%提示 style=&quot;success&quot; %}
-安装程序会自动将`chloros-cli`添加至系统PATH环境变量，以便命令行访问。
+{% 提示 style=&quot;success&quot; %}
+安装程序会自动将`chloros-cli`添加至系统PATH环境变量，便于命令行访问。
 {% endhint %}
 
 ***
@@ -52,7 +57,7 @@
 
 ### Python SDK
 
-面向开发者及自动化工作流，请安装 Chloros Python SDK：
+面向开发者及自动化工作流，请安装Chloros Python SDK：
 
 ```bash
 pip install chloros-sdk
@@ -68,8 +73,8 @@ pip install chloros-sdk
 
 Chloros安装包包含：
 
-* ✅ **Chloros桌面版GUI** - 全功能图形界面
-* ✅ **Chloros（浏览器版）** - 适用于低配置系统的网页界面
+* ✅ **Chloros 桌面版图形界面** - 全功能图形界面
+* ✅ **Chloros (浏览器版)** - 适用于低配置系统的网页界面
 * ✅ **Chloros CLI** - 命令行界面（需Chloros+许可证）
 * ✅ **后端引擎** - 图像处理管道
 * ✅ **相机配置文件** - 预配置相机模板
@@ -94,9 +99,10 @@ Chloros安装包包含：
 ### 故障排除
 
 **安装失败并显示错误信息：**
-* 确保您拥有管理员权限
-* 暂时禁用防病毒软件
-* 检查是否满足最低系统要求
+
+* 确保拥有管理员权限
+* 暂时停用杀毒软件
+* 确认满足最低系统要求
 
 **应用程序无法启动：**
 
@@ -111,7 +117,7 @@ Chloros安装包包含：
 * 确保网络连接正常
 * 在[https://cloud.mapir.camera](https://cloud.mapir.camera)验证凭证
 * 检查防火墙是否阻断Chloros
-* 详见[Chloros+ 登录](chloros+-login.md)操作指南
+* 详见[Chloros+登录](chloros+-login.md)操作指南
 
 ### 获取支持
 
@@ -134,19 +140,19 @@ Chloros安装包包含：
 
 #### 新增功能
 
-* 初始版本发布
+* 初始发布
 
-#### 改进项
+#### 改进
 
-* 初始版本发布
+* 初始发布
 
 #### 错误修复
 
-* 初始版本发布
+* 初始发布
 
 #### 已知问题
 
-* 初始版本发布
+* 初始发布
 
 </details>***
 
@@ -156,6 +162,8 @@ Chloros安装包包含：
 
 禁止未经授权的使用、分发或修改。
 
-**免费版**：可用于个人及商业用途，功能有限制
+**免费版**：可用于个人及商业用途，功能受限
 
-**Chloros+**：订阅制许可，提供高级功能及商业部署支持
+**Chloros+**：订阅制许可，支持高级功能及商业部署
+
+<figure><img src=".gitbook/assets/t3-125_2.jpg" alt=""><figcaption></figcaption></figure>

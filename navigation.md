@@ -1,6 +1,6 @@
 # 图形用户界面：导航
 
-首次启动 Chloros 和 Chloros（浏览器）时，其后端程序将自动启动。待程序就绪后，左上角的主菜单图标将显示出来 <img src=".gitbook/assets/image (1).png" alt="" data-size="line"> .
+首次启动 Chloros 和 Chloros（浏览器）时，其后端程序将自动启动。待后端就绪后，左上角的主菜单图标将显示出来 <img src=".gitbook/assets/image (1).png" alt="" data-size="line"> .
 
 <figure><img src=".gitbook/assets/header.JPG" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@
 
 ### <img src=".gitbook/assets/image (4).png" alt="" data-size="line"> 进度条 <img src=".gitbook/assets/image (5).png" alt="" data-size="line">在免费Chloros模式（顺序处理所有文件）下，进度条显示两个阶段：目标检测与处理。
 
-在付费Chloros+授权模式（并行处理所有文件）下，进度条显示四个阶段：检测、分析、校准、导出。 将鼠标悬停在进度条上将展开扩展面板以便实时跟踪进度。点击顶部进度条可冻结下拉面板，再次点击则解除冻结。
+在付费Chloros+授权模式（并行处理所有文件）下，进度条显示四个阶段：检测、分析、校准、导出。 将鼠标悬停在进度条上会展开扩展面板以便实时跟踪进度。点击顶部进度条可冻结下拉面板，再次点击则解除冻结。
 
 <figure><img src=".gitbook/assets/plus_prog.JPG" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@
 
 #### <img src=".gitbook/assets/icon_project-settings.JPG" alt="" data-size="line"> [项目设置](project-settings/project-settings.md)
 
-项目设置选项卡可调整项目全局参数及处理参数。请在开始文件处理前完成这些设置。
+项目设置选项卡可调整项目全局参数及处理参数。请在开始处理文件前完成这些设置。
 
 #### <img src=".gitbook/assets/icon_file-browser.JPG" alt="" data-size="line"> 文件浏览器
 
@@ -34,7 +34,7 @@
 
 #### <img src=".gitbook/assets/icon_image-viewer.JPG" alt="" data-size="line"> [图像查看器](image-viewer-gui/opening-an-image-full-screen.md)
 
-在主图像查看器中点击图像时，该图像将在图像查看器选项卡中全屏打开。
+在主图像查看器中点击图像后，该图像将在图像查看器选项卡中全屏打开。
 
 #### <img src=".gitbook/assets/icon_log.JPG" alt="" data-size="line"> 调试日志
 
@@ -42,4 +42,4 @@
 
 #### <img src=".gitbook/assets/icon_user.JPG" alt="" data-size="line"> [用户登录](chloros+-login.md)
 
-用户登录侧边栏可用于登录您的Chloros+账户以解锁高级功能。您还可在此查看当前应用程序版本，并调整Chloros GUI及CLI界面中显示文本的语言设置。
+用户登录侧边栏可用于登录您的Chloros+账户以解锁高级功能。您还可在此查看当前应用程序版本，并调整Chloros图形界面及CLI中显示文本的语言设置。
