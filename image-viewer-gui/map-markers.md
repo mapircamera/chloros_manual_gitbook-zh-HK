@@ -1,10 +1,10 @@
 # 地图标记
 
-地图选项卡会根据图像的GPS坐标，在交互式二维地图上显示您的图像。这可为您提供拍摄过程的地理概览，并帮助您直观呈现空间覆盖范围。在首次导入图像时，此功能还可快速移除无需处理的图像。
+地图选项卡会根据图像的GPS坐标，在交互式二维地图上显示您的图像。这为您提供拍摄过程的地理概览，并帮助您可视化空间覆盖范围。在首次导入图像时，此功能还可快速移除无需处理的图像。
 
 <figure><img src="../.gitbook/assets/chloros_map_markers.gif" alt=""><figcaption></figcaption></figure>
 
-## 访问地图标签页
+## 访问地图选项卡
 
 1. 在Chloros中打开或创建项目
 2. 导入含GPS元数据的图像
@@ -17,9 +17,7 @@
 
 ***
 
-## 通过地图标签调整图像
-
-**地图** <img src="../.gitbook/assets/image (3).png" alt="" data-size="line"> 标签页具备相同的添加  <img src="../.gitbook/assets/image.png" alt="" data-size="line">   <img src="../.gitbook/assets/image (1).png" alt="" data-size="line">  和删除  <img src="../.gitbook/assets/image (2).png" alt="" data-size="line">  文件按钮与[**文件浏览器**](../processing-images-gui/adding-files-to-a-project.md) <img src="../.gitbook/assets/icon_file-browser.JPG" alt="" data-size="line"> 标签页相同。同时显示相同的项目文件表格列表，但列标题有所不同：
+## 通过地图标签调整图像**地图**<img src="../.gitbook/assets/image (3).png" alt="" data-size="line"> 标签页具备相同的添加  <img src="../.gitbook/assets/image.png" alt="" data-size="line">   <img src="../.gitbook/assets/image (1).png" alt="" data-size="line">  和删除  <img src="../.gitbook/assets/image (2).png" alt="" data-size="line">  文件按钮与[**文件浏览器**](../processing-images-gui/adding-files-to-a-project.md) <img src="../.gitbook/assets/icon_file-browser.JPG" alt="" data-size="line"> 标签页相同。同时显示相同的项目文件表格列表，但列标题有所不同：
 
 ### 文件名
 
@@ -28,11 +26,11 @@
 
 ### 纬度
 
-* 图片纬度
+* 图像纬度
 
 ### 经度
 
-* 图片经度
+* 图像经度
 
 ### 海拔
 
@@ -46,16 +44,16 @@
 
 ## 图像标记
 
-每张带有GPS数据的图像在地图上均以标记显示：
+每张带有GPS数据的图像在地图上均以标记点呈现：
 
 ### 标记显示
 
 * 标记显示每张图像的精确GPS坐标位置
 * 缩小地图时，聚集的标记可能显示为聚合状态
-* 放大地图可查看单张图像的具体位置
+* 放大地图可查看单个图像位置
 
 {% hint style="success" %}
-超级缩放：当达到地图瓦片提供商的最大缩放级别后，继续放大时瓦片将被放大显示，从而可查看紧密相邻的标记。
+超级缩放：当达到地图瓦片提供商的最大缩放级别后，继续放大时瓦片将被放大显示，使您能看到紧密相邻的标记。
 {% endhint %}
 
 ### 悬停预览
@@ -69,7 +67,7 @@
 ## 地图瓦片提供商
 
 {% hint style="success" %}
-**自动选择**：Chloros会自动为当前地图位置选择最佳缩放级别的图块服务。您也可手动切换提供商。
+**自动选择**：Chloros会自动为当前地图位置选择最佳缩放级别的图块服务。您可根据需要手动切换提供商。
 {% endhint %}
 
 地图选项卡支持两种背景地图图像图块提供商：
@@ -88,11 +86,11 @@
 
 ## 地图瓦片类型
 
-可选择的地图图层类型（从左至右）：
+可选择地图图层类型（从左至右）：
 
- <img src="../.gitbook/assets/image (23).png" alt="" data-size="line">### 地形图
+ <img src="../.gitbook/assets/image (23).png" alt="" data-size="original">### 地形图
 
-显示高程剖面及包含细节（道路等）的地图瓦片
+显示海拔剖面图及包含细节（道路等）的地图瓦片
 
 ### 地图
 
@@ -117,9 +115,7 @@
 
 ### 平移控制
 
-* **平移**：点击并拖动以移动地图视图
-
-***
+* **平移**：点击并拖动以移动地图视图***
 
 ## 应用场景
 
@@ -129,9 +125,9 @@
 * 识别影像覆盖的空白区域
 * 验证飞行路径执行情况
 
-### 地面勘测复核
+### 地面勘测回溯
 
-* 查看地面拍摄点的空间分布
+* 观察地面拍摄点的空间分布
 * 定位校准目标图像在勘测区域中的位置
 * 规划补充拍摄点
 
@@ -139,7 +135,7 @@
 
 * 快速识别异常位置拍摄的图像
 * 验证数据集GPS定位精度
-* 通过现场记录交叉核对图像位置
+* 交叉比对图像位置与现场记录
 
 ***
 
@@ -153,13 +149,13 @@
 * 拍摄时相机GPS功能关闭
 * EXIF数据被外部软件删除
 
-**解决方案：**确认相机GPS功能开启状态，重新导入原始文件
+**解决方案：**确认相机GPS功能开启状态，并重新导入原始文件
 
-### 定位标记位置异常
+### 标记位置错误
 
 **可能原因：**
 
 * 相机GPS卫星定位精度不足
-* 拍摄过程中GPS信号漂移
+* 拍摄过程中GPS漂移
 
 **解决方案：**此问题通常源于拍摄时段因素；精密应用场景建议采用PPK/RTK GPS技术
