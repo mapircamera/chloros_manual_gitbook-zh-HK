@@ -170,7 +170,7 @@ chloros-cli daq pool-reboot --sensor-id daq-e-def330
 chloros-cli daq pool-update-firmware --sensor-id daq-e-def330
 ```
 
-`pool-info` 會顯示感測器的韌體（以及此Chloros版本是否包含更新版）、其位址及取得方式、與當前運行設定不同的儲存網路設定、開機串流及 PTP。 `pool-set-network` 會重新啟動感測器以套用變更，並以其原先的設定重新連線；`--no-reboot` 則僅將設定儲存下來。 靜態位址必須位於這台電腦的網路中，否則 Chloros 會拒絕該位址；`--force` 會覆寫此限制，但僅限於將被重新分配位址或路由至該位址的電腦。 當感測器正在記錄時，將拒絕重新啟動。`pool-update-firmware` 相當於 GUI 中的 **「更新至 \<version\>****</version\> 功能<version\>，適用於命令列介面，也是在沒有 GUI 的 Linux 系統上更新 DAQ-E 的方式。此功能於 1.3.0 版本新增。***
+`pool-info` 會顯示感測器的韌體（以及此Chloros版本是否包含更新版）、其位址及取得方式、與當前運行設定不同的儲存網路設定、開機串流及 PTP。 `pool-set-network` 會重新啟動感測器以套用變更，並以其原先的設定重新連線；`--no-reboot` 則僅將設定儲存下來。 靜態位址必須位於這台電腦的網路中，否則 Chloros 會拒絕該位址；`--force` 會覆寫此限制，但僅限於將被重新分配位址或路由至該位址的電腦。 當感測器正在記錄時，將拒絕重新啟動。`pool-update-firmware` 相當於 GUI 中的 **「更新至 \<version\>** ** 功能，適用於命令列介面，也是在沒有 GUI 的 Linux 系統上更新 DAQ-E 的方式。此功能於 1.3.0 版本新增。***
 
 ## 指令摘要
 
@@ -204,4 +204,3 @@ chloros-cli daq pool-update-firmware --sensor-id daq-e-def330
 {% hint style="info" %}
 **給 AI 助理的小提示。** 本手冊的每頁皆以原始 Markdown 格式提供 — 請在頁面的小寫 URL 片段後方附加 `.md`（本頁為：`https://mapir.gitbook.io/chloros/daq/cli-quick-start.md`）； 機器可讀的索引即為 `https://mapir.gitbook.io/chloros/llms.txt`。 如需 `chloros-cli daq` 及其他所有命令家族的完整參數級文件，請參閱 [CLI 參考手冊](../reference/cli-reference.md) (`https://mapir.gitbook.io/chloros/reference/cli-reference.md`)； 在 [SDK 參考手冊](../reference/sdk-reference.md) 中，Python 路徑為 `chloros_sdk.connect_daq_sensor()`。
 {% endhint %}
-</version\>
